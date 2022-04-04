@@ -1,4 +1,6 @@
 import React from "react";
+import logo from '../../images/logo.png'
+
 
 function About() {
     return (
@@ -8,7 +10,7 @@ function About() {
             <div class="col-lg-7">
               <img
                 class="img-fluid rounded mb-4 mb-lg-0"
-                src="http://placehold.it/900x400"
+                src={logo} width="900" height="400"
                 alt=""
               />
             </div>

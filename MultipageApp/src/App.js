@@ -9,6 +9,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Blog from './Components/Pages/Blog/Blog';
 
 function App() {
   return(
@@ -19,6 +20,7 @@ function App() {
       <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/about" exact component={About} />
+      <Route path="/blog" exact component={Blog} />
       </Switch>
       <Footer/>
       </Router>

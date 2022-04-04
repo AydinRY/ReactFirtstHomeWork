@@ -1,4 +1,5 @@
 import React from "react";
+import logo from '../../images/logo.png'
 
 function Home() {
     return (
@@ -8,7 +9,7 @@ function Home() {
             <div class="col-lg-7">
               <img
                 class="img-fluid rounded mb-4 mb-lg-0"
-                src="../images/vaqon.jpg"
+                src={logo} width="900" height="400"
               />
             </div>
             <div class="col-lg-5">
